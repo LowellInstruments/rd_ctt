@@ -42,7 +42,21 @@ RD_DDH_AWS_SYNC = p + 'sync'
 
 
 
+p = 'ddh:sqs:'
+RD_DDH_SQS_QUIT = p + 'quit'
+RD_DDH_SQS_FINISH_BOOT = p + 'boot'
+RD_DDH_SQS_QUEUE = p + 'queue'
+
+
+
 p = 'ddh:net:'
 RD_DDH_NET_QUIT = p + 'quit'
 RD_DDH_NET_FINISH_BOOT = p + 'boot'
 RD_DDH_NET_FIX = p + 'fix'
+
+
+
+p = 'ddh:gfm:'
+RD_DDH_GFM_QUIT = p + 'quit'
+RD_DDH_GFM_FINISH_BOOT = p + 'boot'
+
