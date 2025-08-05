@@ -39,3 +39,10 @@ RD_DDH_AWS_QUIT = p + 'quit'
 RD_DDH_AWS_FINISH_BOOT = p + 'boot'
 RD_DDH_AWS_QUEUE = p + 'queue'
 RD_DDH_AWS_SYNC = p + 'sync'
+
+
+
+p = 'ddh:net:'
+RD_DDH_NET_QUIT = p + 'quit'
+RD_DDH_NET_FINISH_BOOT = p + 'boot'
+RD_DDH_NET_FIX = p + 'fix'
