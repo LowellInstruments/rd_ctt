@@ -1,6 +1,8 @@
 p = 'ddh:gui:'
 RD_DDH_GUI_ALIVE = p + 'alive'
 RD_DDH_GUI_PLOT = p + 'plot'
+RD_DDH_GUI_STATE_CODE = p + 'state_code'
+RD_DDH_GUI_STATE_TEXT = p + 'state_text'
 
 
 
