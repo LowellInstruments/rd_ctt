@@ -3,13 +3,14 @@ RD_DDH_GUI_ALIVE = p + 'alive'
 RD_DDH_GUI_PLOT = p + 'plot'
 RD_DDH_GUI_STATE_CODE = p + 'state_code'
 RD_DDH_GUI_STATE_TEXT = p + 'state_text'
-
+RD_DDH_GUI_STATE_IMAGE = p + 'state_image'
 
 
 p = 'ddh:ble:'
 RD_DDH_BLE_QUIT = p + 'quit'
 RD_DDH_BLE_FINISH_BOOT = p + 'boot'
 RD_DDH_BLE_ANTENNA = p + 'antenna'
+
 
 
 p = 'ddh:gps:'
@@ -19,6 +20,7 @@ RD_DDH_GPS_FINISH_BOOT = p + 'boot'
 RD_DDH_GPS_HAT_GFV = p + 'hat_gfv'
 RD_DDH_GPS_SPEED = p + 'speed'
 RD_DDH_GPS_ANTENNA = p + 'antenna'
+RD_DDH_GPS_TIME_AT_BOOT = p + 'time_boot'
 
 
 
@@ -41,6 +43,7 @@ RD_DDH_AWS_QUIT = p + 'quit'
 RD_DDH_AWS_FINISH_BOOT = p + 'boot'
 RD_DDH_AWS_QUEUE = p + 'queue'
 RD_DDH_AWS_SYNC = p + 'sync'
+RD_DDH_AWS_STATE = p + 'state'
 
 
 
