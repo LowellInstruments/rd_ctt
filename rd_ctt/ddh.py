@@ -1,15 +1,21 @@
 p = 'ddh:gui:'
 RD_DDH_GUI_ALIVE = p + 'alive'
 RD_DDH_GUI_PLOT = p + 'plot'
-RD_DDH_GUI_STATE_CODE = p + 'state_code'
+RD_DDH_GUI_STATE_EVENT = p + 'state_event'
 RD_DDH_GUI_STATE_TEXT = p + 'state_text'
 RD_DDH_GUI_STATE_IMAGE = p + 'state_image'
+RD_DDH_GUI_ADD_HISTORY = p + 'history'
+RD_DDH_GUI_GRAPH_FOL_REQ = p + 'graph_fol_req'
+RD_DDH_GUI_HISTORY_REQ = p + 'history_req'
+
+
 
 
 p = 'ddh:ble:'
 RD_DDH_BLE_QUIT = p + 'quit'
 RD_DDH_BLE_FINISH_BOOT = p + 'boot'
 RD_DDH_BLE_ANTENNA = p + 'antenna'
+RD_DDH_BLE_RESET_REQ = p + 'linux_reset_req'
 
 
 

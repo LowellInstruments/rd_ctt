@@ -1,10 +1,20 @@
-RD_BLT_GUI_ALIVE = "blt:th_alive"
+p = 'blt:gui:'
+RD_BLT_GUI_ALIVE = p + 'alive'
 
-RD_BLT_BLE_SCAN_DUPLICATE = "blt:ble:results"
-RD_BLT_BLE_ANTENNA = "blt:ble:antenna"
-RD_BLT_BLE_TH_QUIT = "blt:th_quit:ble"
 
-RD_BLT_GPS_TH_QUIT = "blt:th_quit:gps"
-RD_BLT_GPS_FIX = "blt:gps:results"
-RD_BLT_GPS_ANTENNA = "blt:gps:antenna"
-RD_BLT_HAT_GFV = "blt:gps:hat_gfv"
+
+p = 'blt:ble:'
+RD_BLT_BLE_SCAN_DUPLICATE_RESULTS = p + 'results'
+RD_BLT_BLE_SCAN_DUPLICATE_RESULTS_PREVIOUS = p + 'results_previous'
+RD_BLT_BLE_ANTENNA = p + 'antenna'
+RD_BLT_BLE_QUIT = p + 'th_quit'
+RD_BLT_BLE_TEMPLATE_TS_LAST_SEEN_MAC = p + 'mac_last_seen:{}'
+RD_BLT_BLE_TEMPLATE_TOLD_IN_WATER_MAC = p + 'mac_told_in_water:{}'
+
+
+
+p = 'blt:gps:'
+RD_BLT_GPS_QUIT = p + 'th_quit'
+RD_BLT_GPS_FIX = p + 'results'
+RD_BLT_GPS_ANTENNA = p + 'antenna'
+RD_BLT_HAT_GFV = p + 'gfv_hat'
