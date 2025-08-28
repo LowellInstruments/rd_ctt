@@ -1,14 +1,20 @@
+
 p = 'ddh:gui:'
 RD_DDH_GUI_STATE_EVENT_CODE = p + 'state_gui_event_code'
 RD_DDH_GUI_STATE_EVENT_TEXT = p + 'state_gui_event_text'
+RD_DDH_GUI_STATE_EVENT_LOCK = p + 'state_gui_event_lock'
 RD_DDH_GUI_PLOT_REASON = p + 'plot_reason'
 RD_DDH_GUI_PLOT_FOLDER = p + 'plot_folder'
-p = p + 'refresh:'
-RD_DDH_GUI_REFRESH_LOCK_ICON = p + 'lock_icon'
-RD_DDH_GUI_REFRESH_NET = p + 'state_process_net'
-RD_DDH_GUI_REFRESH_AWS = p + 'state_process_aws'
+p = 'ddh:gui:process:'
+RD_DDH_GUI_PROCESS_NET_OUTPUT = p + 'process_net_output'
+RD_DDH_GUI_PROCESS_AWS_OUTPUT = p + 'process_aws_output'
+p = 'ddh:gui:refresh:'
+RD_DDH_GUI_REFRESH_HISTORY_TABLE = p + 'refresh_history_table'
+
+
+
+# todo ---> check these work
 RD_DDH_GUI_REFRESH_GPS_ANTENNA = p + 'state_antenna_gps'
-RD_DDH_GUI_REFRESH_BLE_HISTORY = p + 'state_history'
 RD_DDH_GUI_REFRESH_BLE_ANTENNA = p + 'state_antenna_ble'
 RD_DDH_GUI_REFRESH_BLE_LAST_DL = p + 'state_last_dl'
 RD_DDH_GUI_REFRESH_BLE_ICON_AUTO = p + 'ble_icon'
