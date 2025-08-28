@@ -1,17 +1,20 @@
 p = 'ddh:gui:'
-RD_DDH_GUI_STATE_EVENT = p + 'state_event'
-RD_DDH_GUI_STATE_TEXT = p + 'state_text'
-RD_DDH_GUI_HISTORY_ADD = p + 'history'
+RD_DDH_GUI_STATE_EVENT_CODE = p + 'state_gui_event_code'
+RD_DDH_GUI_STATE_EVENT_TEXT = p + 'state_gui_event_text'
+RD_DDH_GUI_PLOT_REASON = p + 'plot_reason'
+RD_DDH_GUI_PLOT_FOLDER = p + 'plot_folder'
 p = p + 'refresh:'
 RD_DDH_GUI_REFRESH_LOCK_ICON = p + 'lock_icon'
-RD_DDH_GUI_REFRESH_NET = p + 'state_net'
-RD_DDH_GUI_REFRESH_AWS = p + 'state_aws'
+RD_DDH_GUI_REFRESH_NET = p + 'state_process_net'
+RD_DDH_GUI_REFRESH_AWS = p + 'state_process_aws'
 RD_DDH_GUI_REFRESH_GPS_ANTENNA = p + 'state_antenna_gps'
 RD_DDH_GUI_REFRESH_BLE_HISTORY = p + 'state_history'
 RD_DDH_GUI_REFRESH_BLE_ANTENNA = p + 'state_antenna_ble'
 RD_DDH_GUI_REFRESH_BLE_LAST_DL = p + 'state_last_dl'
-RD_DDH_GUI_REFRESH_PLOT_REASON = p + 'plot_reason'
-RD_DDH_GUI_REFRESH_PLOT_FOLDER = p + 'plot_folder'
+RD_DDH_GUI_REFRESH_BLE_ICON_AUTO = p + 'ble_icon'
+RD_DDH_GUI_REFRESH_GPS_ICON_AUTO = p + 'gps_icon'
+RD_DDH_GUI_REFRESH_CELL_WIFI_ICON_AUTO = p + 'cell_wifi_icon'
+
 
 
 
