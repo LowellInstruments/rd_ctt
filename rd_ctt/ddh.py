@@ -2,14 +2,15 @@
 p = 'ddh:gui:'
 RD_DDH_GUI_STATE_EVENT_CODE = p + 'state_gui_event_code'
 RD_DDH_GUI_STATE_EVENT_TEXT = p + 'state_gui_event_text'
-RD_DDH_GUI_STATE_EVENT_LOCK = p + 'state_gui_event_lock'
+RD_DDH_GUI_STATE_EVENT_ICON_LOCK = p + 'state_gui_event_icon_lock'
 RD_DDH_GUI_PLOT_REASON = p + 'plot_reason'
 RD_DDH_GUI_PLOT_FOLDER = p + 'plot_folder'
 p = 'ddh:gui:process:'
 RD_DDH_GUI_PROCESS_NET_OUTPUT = p + 'process_net_output'
 RD_DDH_GUI_PROCESS_AWS_OUTPUT = p + 'process_aws_output'
 p = 'ddh:gui:refresh:'
-RD_DDH_GUI_REFRESH_HISTORY_TABLE = p + 'refresh_history_table'
+RD_DDH_GUI_REFRESH_HISTORY_TABLE = p + 'history_table'
+RD_DDH_GUI_REFRESH_PROCESSES_PRESENT = p + 'processes_present'
 
 
 
