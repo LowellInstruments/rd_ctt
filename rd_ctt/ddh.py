@@ -12,9 +12,6 @@ RD_DDH_GUI_BOX_SIDE_BUTTON_LOW = p + 'side_button_low'
 p = 'ddh:gui:refresh:'
 RD_DDH_GUI_REFRESH_HISTORY_TABLE = p + 'history_table'
 RD_DDH_GUI_REFRESH_PROCESSES_PRESENT = p + 'processes_present'
-RD_DDH_GUI_REFRESH_GPS_ANTENNA = p + 'state_antenna_gps'
-RD_DDH_GUI_REFRESH_BLE_ANTENNA = p + 'state_antenna_ble'
-RD_DDH_GUI_REFRESH_BLE_LAST_DL = p + 'state_last_dl'
 RD_DDH_GUI_REFRESH_BLE_ICON_AUTO = p + 'ble_icon'
 RD_DDH_GUI_REFRESH_GPS_ICON_AUTO = p + 'gps_icon'
 RD_DDH_GUI_REFRESH_CELL_WIFI_ICON_AUTO = p + 'cell_wifi_icon'
@@ -27,6 +24,8 @@ RD_DDH_GUI_REFRESH_CELL_WIFI_ICON_AUTO = p + 'cell_wifi_icon'
 p = 'ddh:ble:'
 RD_DDH_BLE_RESET_REQ = p + 'linux_reset_req'
 RD_DDH_BLE_SEMAPHORE = p + 'semaphore'
+RD_DDH_BLE_ANTENNA = p + 'antenna_ble'
+
 
 
 
@@ -36,6 +35,7 @@ RD_DDH_GPS_COUNTDOWN_FOR_FIX_AT_BOOT = p + 'countdown_for_fix_at_boot'
 RD_DDH_GPS_FIX_SPEED = p + 'speed'
 RD_DDH_GPS_FIX_NUMBER_OF_SATELLITES = p + 'ns_view'
 RD_DDH_GPS_HAT_GFV = p + 'hat_gfv'
+RD_DDH_GPS_ANTENNA = p + 'antenna_gps'
 
 
 
