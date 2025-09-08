@@ -9,6 +9,7 @@ RD_DDH_GUI_BOX_SIDE_BUTTON_TOP = p + 'side_button_top'
 RD_DDH_GUI_BOX_SIDE_BUTTON_MID = p + 'side_button_mid'
 RD_DDH_GUI_BOX_SIDE_BUTTON_LOW = p + 'side_button_low'
 RD_DDH_GUI_GRAPH_STATISTICS = p + 'graph_statistics'
+RD_DDH_GUI_MODELS_UPDATE = p + 'models_update'
 
 p = 'ddh:gui:refresh:'
 RD_DDH_GUI_REFRESH_HISTORY_TABLE = p + 'history_table'
