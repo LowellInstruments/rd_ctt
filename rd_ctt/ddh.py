@@ -10,6 +10,9 @@ RD_DDH_GUI_BOX_SIDE_BUTTON_MID = p + 'side_button_mid'
 RD_DDH_GUI_BOX_SIDE_BUTTON_LOW = p + 'side_button_low'
 RD_DDH_GUI_GRAPH_STATISTICS = p + 'graph_statistics'
 RD_DDH_GUI_MODELS_UPDATE = p + 'models_update'
+RD_DDH_GUI_RV = p + 'rv'
+
+
 
 p = 'ddh:gui:refresh:'
 RD_DDH_GUI_REFRESH_HISTORY_TABLE = p + 'history_table'
@@ -38,6 +41,7 @@ RD_DDH_GPS_FIX_SPEED = p + 'speed'
 RD_DDH_GPS_FIX_NUMBER_OF_SATELLITES = p + 'ns_view'
 RD_DDH_GPS_HAT_GFV = p + 'hat_gfv'
 RD_DDH_GPS_ANTENNA = p + 'antenna_gps'
+RD_DDH_GPS_ERROR_NUMBER = p + 'error_number'
 
 
 
@@ -54,7 +58,8 @@ RD_DDH_CNV_QUEUE = p + 'queue'
 p = 'ddh:aws:'
 RD_DDH_AWS_COPY_QUEUE = p + 'queue'
 RD_DDH_AWS_SYNC_REQUEST = p + 'sync'
-RD_DDH_GUI_PROCESS_AWS_OUTPUT = p + 'process_output'
+RD_DDH_AWS_PROCESS_STATE = p + 'process_state'
+RD_DDH_AWS_RV = p + 'rv'
 
 
 
@@ -65,7 +70,7 @@ RD_DDH_SQS_QUEUE = p + 'queue'
 
 
 p = 'ddh:net:'
-RD_DDH_GUI_PROCESS_NET_OUTPUT = p + 'process_output'
+RD_DDH_NET_PROCESS_OUTPUT = p + 'process_output'
 
 
 
