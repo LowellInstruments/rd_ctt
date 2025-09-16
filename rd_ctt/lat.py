@@ -18,3 +18,8 @@ RD_LAT_GPS_QUIT = p + 'th_quit'
 RD_LAT_GPS_FIX = p + 'results'
 RD_LAT_GPS_ANTENNA = p + 'antenna'
 RD_LAT_HAT_GFV = p + 'gfv_hat'
+
+
+p = 'lat:sqs:'
+RD_LAT_SQS_QUIT = p + 'th_quit'
+

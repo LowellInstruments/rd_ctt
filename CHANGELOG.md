@@ -8,3 +8,8 @@
 
         added some LAT constants
 
+0.1.3   09/16/25
+
+        added SQS thread for LAT
+        added LAT constants for SQS
+
