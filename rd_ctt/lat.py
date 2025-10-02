@@ -2,6 +2,7 @@ p = 'lat:gui:'
 RD_LAT_GUI_ALIVE = p + 'alive'
 RD_LAT_GUI_MAC_ENTERS_WATER = p + 'mac_enters_water_'
 RD_LAT_GUI_MAC_GOES_ON_DECK = p + 'mac_goes_on_deck_'
+RD_LAT_GUI_SHOW_POP_UP = p + 'show_popup'
 
 
 
